@@ -3,14 +3,30 @@
 *{
   margin:0;
 }
+body{
+  background-color: black;
+  color: white;
+}
+
 
 .blog-header {
   line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+  /* border-bottom: 1px solid #e5e5e5; */
   max-width: 100%;
   text-align: center;
 }
-
+.Header{
+  text-align: center;
+  margin: auto;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+#team{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
   font-size: 2.25rem;
@@ -37,9 +53,6 @@ p,li{
     font-size: 20px;
 }
 
-div{
-    background:white;
-}
 .nav-scroller {
   position: relative;
   z-index: 2;
@@ -84,6 +97,7 @@ div{
   .h-md-250 { height: auto; }
 }
 
+
 /* Pagination */
 .blog-pagination {
   margin-bottom: 1rem;
@@ -104,28 +118,63 @@ div{
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #727272;
-}
 
 /*
  * Footer
  */
 .blog-footer {
-  color: #727272;
-  padding: 6px ;
+  color:white;
+  padding:10px 10px;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  background-color: #079ecb;;
 }
-.blog-footer p:last-child {
+.blog-footer p {
   margin-bottom: 0;
+  font-size: 15px;
 }
 
-p::first-letter {
-    font-size: 25px;
-  }
 
+a{
+  margin: 10px;
+  font-size: 1.2rem;
+  color: white;
 
+}
+a:hover{
+  color:black;
+}
+
+.top-left {
+  position: absolute;
+  top: 14px;
+  left: 100px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.top-right1 {
+  position: absolute;
+  top: 12px;
+  right:425px;
+  text-decoration: none;
+
+}
+.top-right2 {
+  position: absolute;
+  top: 12px;
+  right: 325px;
+  text-decoration: none;
+
+}
+.top-right3 {
+  position: absolute;
+  top: 12px;
+  right: 225px;
+  text-decoration: none;
+}
+.top-right4 {
+  position: absolute;
+  top: 4px;
+  right: 50px;
   
+}

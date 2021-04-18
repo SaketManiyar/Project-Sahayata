@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -37,22 +36,26 @@
   </head>
   <body>
     
-<div class="container">
-  <header class="blog-header py-3">
+<div class="container-fluid Header">
+  <header class="blog-header">
     <div class="row flex-nowrap justify-content-between align-items-center">
+      <img src="img3.jpg" width="100%" height="700">
       <div class="col-4">
-        <h3 style="margin-left: -30px;">SAHAYATA</h3>
+        <h3 class="top-left">SAHAYATA</h3>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
-        <a href="Screenshot (1).png" class="btn btn-primary btn-lg" download>DOWNLOAD</a>
+        <a href="#about" class="top-right1">About</a>
+        <a href="#tools" class="top-right2">Tools</a>
+        <a href="#team" class="top-right3">Team</a>
+        <a href="Screenshot (1).png" class="btn btn-outline-dark btn-lg top-right4" download>DOWNLOAD</a>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       </div>
     </div>
   </header>
+  
 
 </div>
 
-<img src="img3.jpg" width="100%" height="700">
 
 <main class="container">
 
@@ -61,7 +64,7 @@
     
     <div class="col-md-8" data-aos="fade-right">
 
-      <article class="blog-post">
+      <article class="blog-post" id="about">
         <h2 class="blog-post-title">About</h2>
 
         <p>Wouldn’t it be satisfying to do something related to COVID-19 as it has rapidly 
@@ -98,12 +101,13 @@
             </p>
         
       </article>
-      <hr>
+      
 
     </div>
+    
 
     <div class="col-md-4">
-      <div class="p-4 mb-3 bg-light rounded" data-aos="fade-left">
+      <div class="p-4 mb-3 bg-dark rounded" data-aos="fade-left">
         <h4 class="fst-italic">Our mission</h4>
         <p class="mb-0">We “Team Sahayata” do hope that these tough times come to an end and urge 
             you to make Sanitization, Wearing Mask and Maintaining Social Distance your 
@@ -119,8 +123,9 @@
 
 
   </div>
-
-  <div class="row mb-2" >
+  <hr>
+  <h2 class="blog-post-title">Building Blocks</h2>
+  <div class="row mb-2" id="team" >
     <div class="col-md-4">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative transparent" data-aos="fade-left">
         <img src="..." class="card-img-top" alt="...">
@@ -197,7 +202,7 @@
               </div>
             </div>
    </div>
-   <div class="tools">
+   <div class="tools" id="tools">
      <div class="row">
        <div class="col-sm-3">
          <img src="logo/andrino.jpg" width="70" height="70">
@@ -231,7 +236,7 @@
 
 
   <nav class="blog-pagination" aria-label="Pagination">
-    <a class="btn btn-outline-primary" style="margin-bottom: auto;" href="#">Back to top</a>
+    <a class="btn btn-outline-success" style="margin-bottom: auto;" href="#">Back to top</a>
   </nav>
 
 </main>
@@ -247,7 +252,7 @@
 
 <footer class="blog-footer">
     
-  <p>Built for All</a> by SAHAYATA Team</a>.</p>
+  <p >Built for All</a> by SAHAYATA Team</a>.</p>
   
 </footer>
 
