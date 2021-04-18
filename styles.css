@@ -1,10 +1,14 @@
 
 /* stylelint-disable selector-list-comma-newline-after */
+*{
+  margin:0;
+}
 
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
   max-width: 100%;
+  text-align: center;
 }
 
 .blog-header-logo {
@@ -23,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .display-4 {
   font-size: 2.5rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 0) {
   .display-4 {
     font-size: 3rem;
   }
@@ -41,6 +45,12 @@ div{
   z-index: 2;
   height: 2.75rem;
   overflow-y: hidden;
+}
+.tools{
+  text-align:center;
+}
+.tools img{
+  margin:5px;
 }
 
 .nav-scroller .nav {
@@ -70,7 +80,7 @@ div{
 }
 
 .h-250 { height: auto; }
-@media (min-width: 768px) {
+@media (min-width: 0) {
   .h-md-250 { height: auto; }
 }
 
@@ -117,9 +127,5 @@ p::first-letter {
     font-size: 25px;
   }
 
-th, td {
-    padding: 50px;
-    text-align: left;
-  }
 
   
