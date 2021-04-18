@@ -21,11 +21,11 @@ body{
   position: relative;
   padding-left: 0px;
   padding-right: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 #team{
-  margin-top:50px;
-  margin-bottom: 50px;
+  margin-top:3rem;
+  margin-bottom: 3rem;
 }
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p,li{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .nav-scroller {
@@ -63,7 +63,7 @@ p,li{
   text-align:center;
 }
 .tools img{
-  margin:7px 0;
+  margin:0.5px 0;
 }
 
 .nav-scroller .nav {
@@ -85,7 +85,7 @@ p,li{
 
 .card-img-right {
   height: 100%;
-  border-radius: 50px;
+  border-radius: 3rem;
 }
 
 .flex-auto {
@@ -124,18 +124,18 @@ p,li{
  */
 .blog-footer {
   color:white;
-  padding:10px 10px;
+  padding:0.75rem 0.75rem;
   text-align: center;
   background-color: #079ecb;;
 }
 .blog-footer p {
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 
 a{
-  margin: 10px;
+  margin: 0.75rem;
   font-size: 1.2rem;
   color: white;
 
@@ -146,35 +146,35 @@ a:hover{
 
 .top-left {
   position: absolute;
-  top: 14px;
-  left: 100px;
+  top: 1rem;
+  left: 6rem;
   color: white;
   font-family: sans-serif;
   font-weight: bold;
 }
 .top-right1 {
   position: absolute;
-  top: 12px;
-  right:425px;
+  top: 0.75rem;
+  right:26.56rem;
   text-decoration: none;
 
 }
 .top-right2 {
   position: absolute;
-  top: 12px;
-  right: 325px;
+  top: 0.75rem;
+  right: 20.31rem;
   text-decoration: none;
 
 }
 .top-right3 {
   position: absolute;
-  top: 12px;
-  right: 225px;
+  top: 0.75rem;
+  right: 14rem;
   text-decoration: none;
 }
 .top-right4 {
   position: absolute;
-  top: 4px;
-  right: 50px;
+  top: 0.25rem;
+  right: 3rem;
   
 }
