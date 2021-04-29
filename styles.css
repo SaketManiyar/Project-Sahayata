@@ -65,7 +65,10 @@ p,li{
   text-align:center;
 }
 .tools img{
-  margin:0.5px 0;
+  margin:10px 0;
+}
+.circular{
+  border-radius:50%;
 }
 
 .nav-scroller .nav {
