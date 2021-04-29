@@ -7,7 +7,9 @@ body{
   background-color: black;
   color: white;
 }
-
+.row{
+  margin: 0;
+}
 
 .blog-header {
   line-height: 1;
