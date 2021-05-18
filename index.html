@@ -1,250 +1,351 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Sahayata</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<head>
+  <title>Sahayata</title>
+  <link rel="icon" href="mainIcon.ico" type="image/ico" sizes="16x16">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+  <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-    
+  <!-- The following code is under test -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!-- Bootstrap core CSS -->
-<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- The above code is under test -->
+  <link href="style_2.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
 
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light nav-color" style="height:65px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SAHAYATA</a>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<div class="container-fluid Header">
-  <header class="blog-header">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <img src="img3.jpg" width="100%" height="700">
-      <div class="col-4">
-        <h3 class="top-left">SAHAYATA</h3>
-      </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
-        <a href="#about" class="top-right1">About</a>
-        <a href="#tools" class="top-right2">Tools</a>
-        <a href="#team" class="top-right3">Team</a>
-        <a href="Screenshot (1).png" class="btn btn-outline-dark btn-lg top-right4" download>DOWNLOAD</a>
+      <div>
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active top-right1" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active top-right3" aria-current="page" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active top-right2" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-dark btn-sm top-right4" aria-current="page" href="#">DOWNLOAD</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </header>
-  
-  
-</div>
+  </nav>
 
 
-<main class="container">
-  
-  
-  <div class="row">
-    
-    <div class="col-md-8 col-sm" data-aos="fade-right">
-      
-      <article class="blog-post" id="about">
-        <h2 class="blog-post-title">About</h2>
-        
-        <p>Wouldn’t it be satisfying to do something related to COVID-19 as it has rapidly 
-          affected our day-to-day life, from disrupting the world trade to plunging the 
-          world into distress after the sudden hike in people getting infected by the 
-          disease. <br>
-          <br>
-          Face masks are becoming the new normal. To limit the spread of this 
-          infectious disease, mandatory face-mask rules are now becoming common in 
-          public settings around the globe and in addition to that many public service 
-          providers and government require people to wear face-masks covering both 
-          mouth and nose while in public places using public services. 
+  </div>
+
+  <div class="intro-flex-intro">
+    <div class="intro-download-flex-div">
+      <h2> Sahayata</h2>
+      <p>Your one stop destination to blend technology to fight the COVID-19 Pandemic.</p>
+      <button type="button" class="btn btn-primary btn-lg">Download</button>
+    </div>
+    <img src="images/intro-image.jpg" class="caro">
+  </div>
+  <div class="intro-flex carousel-custom" id="about">
+    <h2 class="pele heading-font">Stopping the Spreads starts with you</h2>    
+    <p class="pele">
+      Sahayata helps you set up an environment that detects personnel wearing
+      masks.<br>
+      It also detects body temperature and provides alerts.<br>
+      Experienced the dread of continuosly monitoring people coming and leaving your home?
+      <br>
+      Leave all the work on arduino sensor and relax
+    </p>
+  </div>
+  <div class="intro-flex-two carousel-custom-bg">
+    <div>
+      <div>
+        <h2>Leading Technology</h2>
+        <p>Project Sahayata is built upon robust frameworks and has <br>
+          been stress tested from the alpha stage
+          of development<br> to provide the user with blazing fast results </p>
+        <h2>Machine Learning</h2>
+        <p>The face-detection/mask-detection mechanism of Sahayata <br>
+          is powered by Tensorflow which is a powerful and end-to-end<br>
+          open-source platform for machine learning. The model is <br>
+          trained to predict a person wearing a mask and immediately<br>
+          alert the user for quick action.
         </p>
-        <hr>
-    
-        <h2 class="blog-post-title">Aim of project</h2>
-        
-        <p>So our project presents a simplified approach to achieve this purpose using 
-          some basic Machine Learning packages. Our project detects the face from the 
-          image correctly and then identifies if it has a mask on it or not. It is also 
-          designed for multiple aspects like : </p>
+        <h2>Powerful Backend</h2>
+        <p>The project uses the super fast firebase framework as its <br>backend
+          to store user data and fetch information from the server.</p>
+      </div>
+
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide caro" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/bg-img.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg-img.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg-img.jpg" class="d-block w-100" alt="...">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <main class="container">
+    <div class="row">
+
+      <div class="col-md-8 col-sm" data-aos="fade-right">
+
+        <article class="blog-post">
+          <h2 class="blog-post-title">What is project "Sahayata"?</h2>
+
+          <p>Wouldn’t it be satisfying to do something related to COVID-19 as it has rapidly
+            affected our day-to-day life, from disrupting the world trade to plunging the
+            world into distress after the sudden hike in people getting infected by the
+            disease. <br>
+            <br>
+            Face masks are becoming the new normal. To limit the spread of this
+            infectious disease, mandatory face-mask rules are now becoming common in
+            public settings around the globe and in addition to that many public service
+            providers and government require people to wear face-masks covering both
+            mouth and nose while in public places using public services.
+          </p>
+
+          <h2 class="blog-post-title">Aim of project</h2>
+
+          <p>So our project presents a simplified approach to achieve this purpose using
+            some basic Machine Learning packages. Our project detects the face from the
+            image correctly and then identifies if it has a mask on it or not. It is also
+            designed for multiple aspects like : </p>
           <ul>
             <li>Face Detection</li>
             <li>Mask Detection</li>
             <li>Security Measures</li>
-            <li>Temperature Screening (To measure one’s temperature without 
+            <li>Temperature Screening (To measure one’s temperature without
               getting close to them and record the body temperature)</li>
-            </ul>   
-            <p>
-              and give all this information to the user through an Android Application. Paired with the face 
-              recognition system, it also send an alert message of the person arriving at the 
-              door if his/her temperature is over the threshold value….. 
-              
-            </p>
-            
-          </article>
-          
-          
-    </div>
-    <div class="col-md-4 col-sm">
-      <div class="p-4 mb-3 bg-dark rounded" data-aos="fade-left">
-        <h4 class="fst-italic">Our mission</h4>
-          <p class="mb-0">We “Team Sahayata” do hope that these tough times come to an end and urge you to make Sanitization, Wearing Mask and Maintaining Social Distance your Habit. :)</p>
+          </ul>
+          <p>
+            and give all this information to the user through an Android Application. Paired with the face
+            recognition system, it also send an alert message of the person arriving at the
+            door if his/her temperature is over the threshold value…..
+
+          </p>
+
+        </article>
+
+
       </div>
-      <div class="p-4" data-aos="fade-left">
-        <img src="logo.jpeg" height="300" width="300">
+      <div class="col-md-4 col-sm">
+        <div class="p-4 mb-3 rounded" data-aos="fade-left">
+          <h4>Our mission</h4>
+          <p>We “Team Sahayata” do hope that these tough times come to an end and urge you to make Sanitization, Wearing
+            Mask and Maintaining Social Distance your Habit. :)</p>
+        </div>
       </div>
-            
     </div>
+    <hr>
+    <h2 id="team" class="blog-post-title">Building Blocks</h2>
+    <div class="row mb-2">
+      <div class="col-md-4 col-sm">
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative transparent"
+          data-aos="fade-left">
+          <img src="" class="card-img-top" alt="...">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Aditya R</h3>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-left">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Prajeet Singh</h3>
+            <p class="mb-auto">Throughout my life , I've approached every challenge with enthusiam, creativity and
+              ceaseless desire to achieve success. With a good knowledge of ML, and python and its different frameworks
+              and libraries , seeking to enter into some valuable environment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-left">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Naman Khandelwal</h3>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-right">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Saket Maniyar</h3>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-right">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Raunak Chandak</h3>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-right">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Siddharth Saxena</h3>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-left">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Madhav Maheshwari</h3>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-left">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Rohit Soni</h3>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          data-aos="fade-left">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Nikhil Niranjan</h3>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <h2 id="tools">Tools</h2>
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="logo/android__studio__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/arduino__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/firebase__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/flask__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/open__cv__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/proteus__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/python__logo__.png"></div>
+        <div class="swiper-slide"><img src="logo/tensorflow__logo__.png"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <nav class="blog-pagination" aria-label="Pagination">
+      <a class="btn btn-outline-success" style="margin-bottom: auto;" href="#">Back to top</a>
+    </nav>
+
+  </main>
+  <div class="footer py-2 mt-4">
   </div>
-  <hr>
-        <h2 class="blog-post-title">Building Blocks</h2>
-        <div class="row mb-2" id="team" >
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative transparent" data-aos="fade-left">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Aditya R</h3>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-left">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Prajeet Singh</h3>
-                <p class="mb-auto">Throughout my life , I've approached every challenge with enthusiam, creativity and ceaseless desire to achieve success. With a good knowledge of ML, and python and its different frameworks and libraries , seeking to enter into some valuable environment.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-left">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Naman Khandelwal</h3>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-right">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Saket Maniyar</h3>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-right">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Raunak Chandak</h3>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-right">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Siddharth Saxena</h3>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-left">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Madhav Maheshwari</h3>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-left">
-              <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-0">Rohit Soni</h3>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" data-aos="fade-left">
-              <div class="col p-4 d-flex flex-column position-static">
-                  <h3 class="mb-0">Nikhil Niranjan</h3>
-                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tools" id="tools">
-            <div class="row">
-              <div class="col-sm-6 col-md-3" >
-                <img src="logo/arduino.jpg" width="70" height="70">
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <img src="logo/firebase.png" width="70" height="70">
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <img src="logo/tf.jpg" width="70" height="70">
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <img src="logo/py.jpg" width="70" height="70">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6 col-md-3">
-                <img src="logo/open cv.png" width="70" height="70">
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <img src="logo/proteus.png" width="70" height="70">
-              </div>
-              <div class="col-sm-6 col-md-3 ">
-                <img src="logo/flask.png" width="70" height="70">
-              </div>
-              <div class="col-sm-6 col-md-3 ">
-                <img class="circular" src="logo/as.jpg" width="70" height="70">
-              </div>
-            </div>
-          </div>
-          <nav class="blog-pagination" aria-label="Pagination">
-            <a class="btn btn-outline-success" style="margin-bottom: auto;" href="#">Back to top</a>
-          </nav>
-          
-        </main>
-        
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({
-            offset: 200,
-            duration: 500
-          });
-          </script>
-
-
-<footer class="blog-footer">
-  
-  <p >Built for All</a> by SAHAYATA Team</a>.</p>
-  
-</footer>
-
-
+  <footer class="blog-footer">
+    <p>Built for All by SAHAYATA Team.</p>
+  </footer>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 500
+    });
+  </script>
+
+  <script
+    src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/bundles/4.19.2/compiled-addons.min.js"></script>
+  <script type="text/javascript"
+    src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/plugins/mdb-plugins-gathered.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
 </body>
+
 </html>
