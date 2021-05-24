@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <title>Sahayata</title>
   <link rel="icon" href="mainIcon.ico" type="image/ico" sizes="16x16">
@@ -13,13 +12,11 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <!-- The following code is under test -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <!-- The above code is under test -->
-  <link href="style_2.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -31,7 +28,7 @@
       <div>
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active top-right1" aria-current="data" href="#data">Data</a>
+            <a class="nav-link active top-right1" aria-current="data" href="data.html">Data</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active top-right1" aria-current="page" href="#about">About</a>
@@ -49,9 +46,6 @@
       </div>
     </div>
   </nav>
-
-
-  </div>
 
   <div class="intro-flex-intro">
     <div class="intro-download-flex-div">
@@ -104,13 +98,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/img2.jpeg" class="d-block w-100" alt="...">
+          <img src="slideimg/api.png" class="d-block w-100 carousel-img-api" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/bg-img.jpg" class="d-block w-100" alt="...">
+          <img src="slideimg/circuit.png" style="border-width: 5%;" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/img3.jpeg" class="d-block w-100" alt="...">
+          <img src="slideimg/splash.png"  class="d-block w-50 carousel-img-app" alt="...">
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
@@ -161,13 +155,9 @@
           <p>
             and give all this information to the user through an Android Application. Paired with the face
             recognition system, it also send an alert message of the person arriving at the
-            door if his/her temperature is over the threshold value…..
-
+            door if his/her temperature is over the threshold value.
           </p>
-
         </article>
-
-
       </div>
       <div class="col-md-4 col-sm">
         <div class="p-4 mb-3 rounded" data-aos="fade-left">
@@ -178,67 +168,13 @@
       </div>
     </div>
     <hr>
-
-    
-    <h2 id="data">Data</h2>
-    <div data-aos="fade-up">
-    <table class="table">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">Serial No</th>
-          <th scope="col">Time</th>
-          <th scope="col">Temperature</th>
-          <th scope="col">Remark</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>14:00</td>
-          <td>38.5 C</td>
-          <td style="color:green">OK</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>10:00</td>
-          <td>38 C</td>
-          <td style="color:green">OK</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>21:00</td>
-          <td>39.5 C</td>
-          <td style="color:red">INFECTED</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>18:30</td>
-          <td>40 C</td>
-          <td style="color:red">INFECTED</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>15:10</td>
-          <td>37 C</td>
-          <td style="color:green">OK</td>
-        </tr>
-      </tbody>
-    </table>
-  <br>
-    
-      <canvas id="myChart"></canvas>
-    </div>
-
-    <br>
-    <hr>
-    
     <h2 id="team" class="blog-post-title">Building Blocks</h2>
     <div class="row mb-2">
       <div class="col-md-4 col-sm">
         <div
           class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative transparent"
           data-aos="fade-left">
-          <img src="images/shri.jpg" class="card-img-top" alt="...">
+          <img src="authimage/aditya.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Aditya R</h3>
             <p class="card-text mb-auto">A cybersecurity enthusiast with training and experience in C++, Python, and Java
@@ -251,7 +187,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-left">
-          <img src="images/pj.png" class="card-img-top" alt="...">
+          <img src="authimage/prajeet.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Prajeet Singh</h3>
             <p class="mb-auto">Throughout my life , I've approached every challenge with enthusiam, creativity and
@@ -263,7 +199,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-left">
-          <img src="images/naman.jpg" class="card-img-top" alt="...">
+          <img src="authimage/naman.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Naman Khandelwal</h3>
             <p class="mb-auto">Throughout my life , I've approached every challenge with enthusiam, creativity and
@@ -275,7 +211,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-right">
-          <img src="images/saket.jpg" class="card-img-top" alt="...">
+          <img src="authimage/saket.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Saket Maniyar</h3>
             <p class="card-text mb-auto">A learning software engineer with interests in real life problem-solving with data structures and algorithms. I have a keen interest in web development. With a good knowledge web development and Java I try to use my knowledge to create useful and efficient applications.</p>
@@ -285,7 +221,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-right">
-          <img src="images/ronak.jpeg" class="card-img-top" alt="...">
+          <img src="authimage/raunak.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Raunak Chandak</h3>
             <p class="mb-auto">A full-stack web developer who brings a problem-solving approach and powerful technology skills to the web development process. I have a keen interest in machine learning. With a good knowledge of MERN stack development, python & java I try to blend my knowledge and skills to create blazing fast applications.</p>
@@ -295,7 +231,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-right">
-          <img src="images/sid.jpg" class="card-img-top" alt="...">
+          <img src="authimage/siddharth.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Siddharth Saxena</h3>
             <p class="mb-auto">A third year engineering student pursuing computer science from vit bhopal. I have a Interest in web development. I love to play cricket, swimming and a wildlife enthusiast. I will be eager to work for an organisation where I can apply my knowledge, skills so as  to fulfill the needs of customers.</p>
@@ -305,7 +241,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-left">
-          <img src="images/madhav.jpeg" class="card-img-top" alt="...">
+          <img src="authimage/madhav.png" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Madhav Maheshwari</h3>
             <p class="card-text mb-auto">I am a passionate learner. My interests lie in the field of android development and web development. I am a highly adaptive student looking forward to take the opportunity where I can leverage my experience, and nurture my technical skills over the period of time.</p>
@@ -315,7 +251,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-left">
-          <img src="images/rohit.jpg" style="height:25rem;" class="card-img-top" alt="...">
+          <img src="authimage/rohit.png" style="height:25rem;" class="card-img-top" alt="...">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Rohit Soni</h3>
             <p class="mb-auto">Student at VIT Bhopal(M.P) , Circuit And Control System Designer.
@@ -327,7 +263,7 @@
       <div class="col-md-4 col-sm">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           data-aos="fade-left">
-          <img src="....." class="card-img-top" alt="NIKHIL NIRANJAN HAS NOT SHARED HIS PIC">
+          <img src="authimage/nikhil.png" class="card-img-top">
           <div class="col p-4 d-flex flex-column position-static">
             <h3 class="mb-0">Nikhil Niranjan</h3>
             <p class="mb-auto">To build my career as a successful professional in an hardware industry where I can actively participate and use my skill to solve the problem and I also Have a ability to meet aggressive reliability , performance , cost , serviceability .</p>
@@ -410,7 +346,8 @@
     });
   </script>
   <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 
 </body>
-
 </html>
