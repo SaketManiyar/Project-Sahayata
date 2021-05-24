@@ -1,4 +1,4 @@
 /images
-.jpeg
-.png
-.jpg
+*.jpeg
+*.png
+*.jpg
